@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app= "http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_parent"
+        android:enabled="true"
+        android:icon="@drawable/ic_parent"
+        android:title="@string/parent"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_child"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:title="@string/child"
+        android:showAsAction="ifRoom"/>
+
+</menu>
